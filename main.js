@@ -6,7 +6,7 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    // Configuraciones - Comunicacion de electron con el renderer
+    // Configuraciones - Comunicacion del con el renderer
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },
